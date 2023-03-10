@@ -1,458 +1,67 @@
-<!doctype html>
-<html>
-	<head>
-
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
-
-	<title>Zeid Marouf</title>
-
-	<style>
-	body {
-  background: #EEEEEE;
-  font: 12px "Times New Roman", Times, sans-serif;
-  line-height: 1.4;
-  margin: 40px 0;
-}
-em {
-  color: #999;
-}
-p {
-  line-height: 1.4;
-}
-ul {
-  margin-bottom: 0;
-}
-li {
-  margin-bottom: 2px;
-}
-a {
-  text-decoration: none;
-}
-
-#resume {
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 80px 100px;
-  background: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 4px #aaa;
-  -webkit-box-shadow: 2px 2px 4px #aaa;
-}
-
-.coursesList {
-  width: 28%;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.largeFont {
-  font-size: 20px;
-}
-
-.smallFont {
-  font-size: 12px;
-}
-
-.sectionBlock {
-  display: flex;
-  width: 100%;
-}
-
-.sectionName {
-  width: 18%;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.sectionContent {
-  width: 80%;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.sectionContent ul {
-  padding-left: 20px;
-  margin-top: 6px;
-  list-style-type: circle;
-}
-
-.sectionContent .title {
-  font-weight: bold;
-}
-
-.sectionContent .summary {
-  font-style: italic;
-}
-
-
-.sectionContent .date {
-  float: right;
-}
-
-.sectionContent .separator {
-  height: 14px;
-}
-
-.sectionLine {
-  border-style: dashed;
-  border-width: 1px;
-  border-color: #CFCFCF;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.divider {
-  font-weight: bold;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.summary {
-  margin-top: 6px;
-}
-
-.skillBlock {
-  margin-bottom: 4px;
-}
-
-.jobBlock {
-  page-break-inside: avoid;
-}
-
-/* Media Queries */
-@media only screen and (max-width: 40em) {
-  body {
-    margin: 0;
-    font-size: 14px;
-  }
-  #resume {
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 0.5em 1em;
-    border: none;
-  }
-  .sectionContent {
-    width: 100%;
-  }
-  .sectionContent .date {
-    padding-right: 2em;
-  }
-  .sectionName {
-    width: auto;
-  }
-  .largeFont {
-    font-size: 20px;
-  }
-  .smallFont {
-    font-size: 14px;
-  }
-}
-
-@media print {
-  #resume {
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 0px 0px;
-    border: 0px;
-    background: #fff;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
-
-  a {
-    color: black;
-  }
-}
-
-	</style>
-
-	</head>
-	<body>
-
-	<div id='resume'>
-  <div id='nameBlock' class='largeFont'>
-    <span class='name'>
-      Zeid Marouf,
-    </span>
-    <span class='label'>Site Reliability Manager</span>
-  </div>
-  <div id='basicsBlock' class='smallFont'>
-    <div class='contactBlock'>
-      <span class='email'>zeid.marouf@gmail.com</span>
-        <span class='divider'>|</span>
-        <span class='address'>
-          Paris, Ile de France, FRA
-        </span>
-    </div>
-      <div id='profilesBlock'>
-      </div>
-  </div>
-  <div class='sectionLine'></div>
-
-  <div id='summaryBlock' class="sectionBlock">
-    <div class='sectionName'>
-      <span>SUMMARY</span>
-    </div>
-    <div class='sectionContent'>
-      <span>Technology Watchman, Proof Of Concept Artist, Continuous Learner, Bot Herder, API Alchemist, Creative Professional Title Writer</span>
-    </div>
-  </div>
-  <div class='sectionLine'></div>
-
-  <div id='workBlock' class="sectionBlock">
-    <div class='sectionName'>
-      <span>EXPERIENCE</span>
-    </div>
-    <div class='sectionContent'>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Netco Sports, Infrastructure Reliability Manager
-	        </span>
-	        <span class='date'>
-	          2015-03-01 &mdash; Present
-	        </span>
-	      </div>
-	      <div><a href='http://netcosports.com'>http://netcosports.com</a>
-        </div>
-        <span class='summary'>Netco Sports is an international company designing and developing OTT solutions, broadcast graphics and multiplatform applications for Sports &amp; Media players.</span>
-	      <ul class='highlights'>
-	        <li>Maintain legacy multitenant environments on dedicated and self-service infrastructure.</li>
-	        <li>Design and deploy made to measure cloud environments.</li>
-	        <li>Build cloud-native applications on a self-service cloud provider.</li>
-	        <li>Ship fast and slow with &quot;Continuous everything&quot;.</li>
-	        <li>(Semi-)Automate everything</li>
-	        <li>Flirt with Chaos Engineering, Security, Virtual Machines, Containers and Microservices Best Practices.</li>
-	        <li>Generate Events from Data and vice versa.</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Aldebaran, Release Engineer
-	        </span>
-	        <span class='date'>
-	          2013-11-01 &mdash; 2015-02-28
-	        </span>
-	      </div>
-	      <div><a href='https://www.ald.softbankrobotics.com/en'>https://www.ald.softbankrobotics.com/en</a>
-        </div>
-        <span class='summary'>Leader in humanoid robotics. Creator of the robots NAO, Pepper and Romed used in education, retail, healthcare, tourism, hospitality or entertainment.</span>
-	      <ul class='highlights'>
-	        <li>Operate the continuous integration platform of the firmware, operating system and software deliverables.</li>
-	        <li>Manage the tooling needs of the software teams.</li>
-	        <li>Automate software and robot tests.</li>
-	        <li>Provide Level 3 support</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Creative Valley, Chief Technical Officer
-	        </span>
-	        <span class='date'>
-	          2013-02-01 &mdash; 2013-09-30
-	        </span>
-	      </div>
-	      <div><a href='https://www.creative-valley.fr'>https://www.creative-valley.fr</a>
-        </div>
-        <span class='summary'>Start-up Accelerator and Digital Agency.</span>
-	      <ul class='highlights'>
-	        <li>Manage the Technical Operations staff and oversee daily operations.</li>
-	        <li>Streamline and enhance process improvement initiatives.</li>
-	        <li>Ensure compliance with technical standards</li>
-	        <li>Seek partnerships with digital services providers</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Daydreamer Studio, Chief Operating Officer
-	        </span>
-	        <span class='date'>
-	          2013-02-01 &mdash; 2014-02-28
-	        </span>
-	      </div>
-	      <div><a href=''></a>
-        </div>
-        <span class='summary'>Agency providing Gaming, Game Marketing and Serious Gaming services.</span>
-	      <ul class='highlights'>
-	        <li>Team and tasks orchestration</li>
-	        <li>Project Planning</li>
-	      </ul>
-	      
-			</div>
-    </div>
-  </div>
-  <div class='sectionLine'></div>
-
-
-
-
-	<div id='education' class="sectionBlock">
-    <div class='sectionName'>
-      <span>EDUCATION</span>
-    </div>
-    <div class='sectionContent'>
-      <div class='educationBlock'>
-        <span class='title'>
-          EPITECH
-        </span>
-        <span class='date'>
-          2011-06-01 &mdash; 2013-01-01
-        </span>
-        <div class=''>
-          Master  - Information Technology
-        </div>
-      </div>
-      <div class='separator'></div>
-      <div class='educationBlock'>
-        <span class='title'>
-          Concordia University
-        </span>
-        <span class='date'>
-          2011-09-01 &mdash; 2012-04-30
-        </span>
-        <div class=''>
-          Master (Year 1 - Exchange Program)  - Special Computer Science
-        </div>
-      </div>
-      <div class='separator'></div>
-      <div class='educationBlock'>
-        <span class='title'>
-          Chongqing University
-        </span>
-        <span class='date'>
-          2010-02-01 &mdash; 2010-08-31
-        </span>
-        <div class=''>
-          Bachelor (Year 2 - Exchange Program)  - CompSci
-        </div>
-      </div>
-      <div class='separator'></div>
-      <div class='educationBlock'>
-        <span class='title'>
-          EPITECH
-        </span>
-        <span class='date'>
-          2008-09-01 &mdash; 2011-08-31
-        </span>
-        <div class=''>
-          Bachelor  - Information Technology
-        </div>
-      </div>
-      <div class='separator'></div>
-      <div class='educationBlock'>
-        <span class='title'>
-          Université de Cergy-Pontoise
-        </span>
-        <span class='date'>
-          2006-09-01 &mdash; 2008-08-31
-        </span>
-        <div class=''>
-          DEUG  - Maths &amp; Computer Sciences
-        </div>
-      </div>
-      
-    </div>
-	</div>
-  <div class='sectionLine'></div>
-
-	<div id='skills' class="sectionBlock">
-    <div class='sectionName'>
-      <span>SKILLS</span>
-    </div>
-    <div class='sectionContent'>
-      <div class='skillBlock'>
-        <span class='title'>Architecture:</span>
-          <span>Microservices</span>, 
-          <span>Message Queues</span>, 
-          <span>Cloud Functions</span>, 
-          <span>Immutable Infrastructure</span>, 
-          <span>Infrastructure as Code</span>, 
-          <span>Configuration Management</span>, 
-          <span>Resilient and Self-healing services</span>, 
-          <span>Antifragile systems</span>, 
-          <span>Tracing and Telemetry</span>, 
-          <span>etc.</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Operations:</span>
-          <span>GCE</span>, 
-          <span>Docker</span>, 
-          <span>Kubernetes</span>, 
-          <span>Istio</span>, 
-          <span>Jenkins</span>, 
-          <span>Slack Bot</span>, 
-          <span>Webhooks</span>, 
-          <span>RabbitMQ</span>, 
-          <span>Google PubSub</span>, 
-          <span>Google Cloud Functions</span>, 
-          <span>Google Deployment Manager</span>, 
-          <span>Google Container Builder</span>, 
-          <span>etc.</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>CI/CD:</span>
-          <span>Build Pipelines</span>, 
-          <span>Blue-Green deployments</span>, 
-          <span>Reproductible Builds</span>, 
-          <span>Intelligent Routing</span>, 
-          <span>etc.</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Languages:</span>
-          <span>Javascript</span>, 
-          <span>Python</span>, 
-          <span>Shell (Bash)</span>
-      </div>
-    </div>
-	</div>
-  <div class='sectionLine'></div>
-
-	<div id='languages' class="sectionBlock">
-    <div class='sectionName'>
-      <span>LANGUAGES</span>
-    </div>
-    <div class='sectionContent'>
-      <span class='language'>French</span>
-      <span class='fluency'><em>(Native)</em></span>
-      <span>,</span>
-      <span class='language'>English</span>
-      <span class='fluency'><em>(Native-level speaker)</em></span>
-      <span>,</span>
-      <span class='language'>Arabic</span>
-      <span class='fluency'><em>(Advanced)</em></span>
-      <span>,</span>
-      <span class='language'>Japanese</span>
-      <span class='fluency'><em>(Novice)</em></span>
-      
-    </div>
-    <div class='sectionLine'></div>
-	</div>
-
-	<div id='interests' class="sectionBlock">
-    <div class='sectionName'>
-      <span>INTERESTS</span>
-    </div>
-    <div class='sectionContent'>
-      <span class='name'>Hot springs</span><!--
-      --><span>, </span>
-      <span class='name'>Reading</span><!--
-      --><span class='keywords'> <em>[
-        Philosophy<!--
-        -->, 
-        Light Novels<!--
-        -->
-      ]</em></span><!--
-      -->
-    </div>
-    <div class='sectionLine'></div>
-	</div>
-
-	</body>
-</html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,user-scalable=no,minimal-ui"><title>Zeid Marouf</title><style>body{background: #EEEEEE;font: 12px "Times New Roman", Times, sans-serif;line-height: 1.4;margin: 40px 0}em{color: black}p{line-height: 1.4}ul{margin-bottom: 0}li{margin-bottom: 2px}a{text-decoration: none}#resume{margin: 0 auto;max-width: 600px;padding: 80px 100px;background: #fff;border: 1px solid #ccc;box-shadow: 2px 2px 4px #aaa;-webkit-box-shadow: 2px 2px 4px #aaa}.coursesList{width: 28%;vertical-align: top;display: inline-block}.largeFont{font-size: 20px}.smallFont{font-size: 12px}.sectionBlock{display: flex;width: 100%}.sectionName{width: 18%;vertical-align: top;display: inline-block}.sectionContent{width: 80%;vertical-align: top;display: inline-block}.sectionContent ul{padding-left: 20px;margin-top: 6px;list-style-type: circle}.sectionContent .title{font-weight: bold}.sectionContent .summary{font-style: italic}.sectionContent .date{float: right}.sectionContent .separator{height: 14px}.sectionLine{border-style: dashed;border-width: 1px;border-color: #CFCFCF;margin-top: 10px;margin-bottom: 10px}.divider{font-weight: bold;margin-left: 5px;margin-right: 5px}.summary{margin-top: 6px}.skillBlock{margin-bottom: 4px;page-break-inside: avoid}.jobBlock{page-break-inside: avoid}@media only screen and (max-width: 40em){body{margin: 0;font-size: 14px}#resume{margin: 0 auto;max-width: 600px;padding: 0.5em 1em;border: none}.sectionContent{width: 100%}.sectionContent .date{padding-right: 2em}.sectionName{width: auto}.largeFont{font-size: 20px}.smallFont{font-size: 14px}}@media print{#resume{margin: 0 auto;max-width: 600px;padding: 0px 0px;border: 0px;background: #fff;box-shadow: none;-webkit-box-shadow: none}.pagebreak{page-break-before: always}a{color: black}}</style></head><body><div id="resume"><div id="nameBlock" class="largeFont"><span class="name">Zeid 
+Marouf</span><br><span class="label">Dev(Sec)Ops/DevEx/SRE</span><br><span class="label">Cloud Economist & Engineering Manager</span></div><div id="basicsBlock" class="smallFont"><div class="contactBlock"><span 
+class="email">zeid.marouf@gmail.com</span><span class="divider">|</span><span class="address">Seoul, KOR</span></div><div id="profilesBlock"></div></div><div class="sectionLine"></div><div id="summaryBlock" class="sectionBlock"><div 
+class="sectionName"><span>SUMMARY</span></div><div class="sectionContent"><span>Framework-defined Infrastructure As Data, Docs Driven Presentation-first Operations</span></div></div><div class="sectionLine"></div><div id="workBlock" 
+class="sectionBlock"><div class="sectionName"><span>EXPERIENCE</span></div><div class="sectionContent"><div class="jobBlock"><div class="blockHeader"><span class="title">Bitfinder, Principal Soft. Eng.</span>(<span><a 
+href="https://getawair.com/">https://getawair.com/</a></span>)<span class="date">2021-10-01 &mdash; 2022-03-31</span></div><span class="summary">Awair empowers its users to mitigate their indoor air for health and safety.</span><ul 
+class="highlights"><li>Manage a small team in charge of building the Framework-defined Infrastructure Platform</li><li>Deploy Grafana LGTM (Loki, Grafana, Tempo, Mimir) & Pixie (eBPF-based) to replace a deprecated Prometheus + Thanos 
+setup</li><li>Write Pipeline as Code using Tekton and Github Actions with end to end attestation and reproducible builds</li><li>Maintain and upgrade legacy and current core services on AWS and GCP via GitOps (ArgoCD) and Codegen in a 
+monorepo (TimescaleDB, MQTT broker, Istio, GCP services via ConfigConnector, etc.)</li><li>Push service team to leverage standards like OpenFeature and OpenSLO</li><li>Supervise engineering efforts regarding security and compliance 
+(Pentesting, SOC2, OWASP SAMM, SLSA level 3, GDPR etc.)</li><li>Cost Reduction (~68.5% on monthly bill)</li></ul><div class="separator"><hr></div></div><div class="jobBlock"><div class="blockHeader"><span class="title">Terraform Labs, 
+DevOps</span><span>(<a href="https://terra.money/">https://terra.money//</a>)</span><span class="date">2021-01-01 &mdash; 2021-09-30</span></div><span class="summary">Diverse, rapidly growing web3 ecosystem. Top 5 Blockchain in 
+2021</span><ul class="highlights"><li>Manage and monitor pet and cattle blockchain nodes</li><li>Manage dApps deployments on ECS and Vercel as well as IPFS</li><li>Setup Vault for securing keys</li><li>Deploy a Kubernetes landing zone 
+for internal tooling via GitOps (ArgoCD)</li><li>Scale up with daily increasing user adoption (EOY ~300M reqs per day)</li><li>Protect the Public Infrastrucure from frequent massive repeated DDoS attacks (>20k rps on multiple 
+endpoints)</li></ul><div class="separator"><hr></div></div><div class="jobBlock"><div class="blockHeader"><span class="title">ZEPL, DevOps Manager</span><span>(<a href="https://zepl.com/">https://zepl.com/</a>)</span><span 
+class="date">2019-04-01 &mdash; 2020-12-31</span></div><span class="summary">Zepl’s enables datascience teams to do exploration and predictive analytics on petabytes of data.</span><ul class="highlights"><li>Reduce engineering costs, 
+monitor billing and negotiate SaaS partnerships (Saving $15k/month)</li><li>Renew infrastructure architecture (From shell scripted legacy kops 1.9 with "fat" OCI images to managed AWS EKS 1.18 using Kustomize and distroless OCI 
+containers)</li><li>Rewrite CI/CD pipeline (From AWS CodePipeline + Jenkins + Drone to Gitlab CI)</li><li>Support Scrum sprints for Operational tasks (Day-0 planning and Day-1 ad-hoc resource creation, networking changes 
+etc.)</li><li>Oversee Engineering efforts surrounding Cloud and Distributed Systems Architecture and Security</li><li>Manage Day-2 operations (maintenance, monitoring, incident response)</li><li>Supervise culture shift towards Everything 
+as Code (Infra., Onboarding, Pipelines, Dashboards, Policies etc.)</li><li>Supervise culture shift towards Resilience & Antifragile Engineering (Fault Domain Awareness, Feature Flags & Circuit Breaking, Adaptive Concurrency Limits, 
+etc.)</li></ul><div class="separator"><hr></div></div><div class="jobBlock"><div class="blockHeader"><span class="title">Korbit, SRE/DevOps Lead</span><span>(<a href="https://korbit.co.kr/">https://korbit.co.kr/</a>)</span><span 
+class="date">2018-03-27 &mdash; 2019-03-31</span></div><span class="summary">World's First Korean Won Cryptocurrency Exchange.</span><ul class="highlights"><li>Manage a small team in charge of DevEx, DevOps, DevSecOps and general 
+Software Architecture</li><li>Design and deploy made to measure cloud environments.</li><li>Migrate legacy services and databases from Heroku to AWS</li><li>Reduce costs and monitor billing (Cloud bill cut by 70%)</li><li>Supervise 
+culture shift towards Infrastructure as Code, Self-Service infrastructure, 0-Downtime deployments (Terraform, CI/CD pipelines, Cloudflare/Akamai)</li><li>Supervise engineering efforts regarding security, compliance and audits (ISO27001, 
+ISMS, etc.)</li></ul><div class="separator"><hr></div></div><div class="jobBlock"><div class="blockHeader"><span class="title">Netco Sports, Infra Reliability Manager (<span><a 
+href="http://netcosports.com">http://netcosports.com</a></span>)</span><span class="date">2015-03-01 &mdash; 2018-03-14</span></div><span class="summary">Netco Sports is an international company designing and developing OTT solutions, 
+broadcast graphics and multiplatform applications for Sports &amp; Media players.</span><ul class="highlights"><li>Maintain legacy multitenant environments on dedicated and self-service infrastructure (PHP 4 + PostgreSQL on 
+AWS).</li><li>Build Cloud-native applications on the cloud (GCP and GKE K8s 1.5.X)</li><li>Build and operate a microservice architecture using Pub/Sub messaging (Vanilla Node.js 0.12, LoopBack 2, React.js and RabbitMQ)</li><li>Provide 
+Level 3 support</li></ul><div class="separator"><hr></div></div><div class="jobBlock"><div class="blockHeader"><span class="title">Aldebaran, Release Engineer</span><span>(<a 
+href="https://www.ald.softbankrobotics.com/en">https://www.ald.softbankrobotics.com/en</a>)</span><span class="date">2013-11-01 &mdash; 2015-02-28</span></div><span class="summary">Leader in humanoid robotics. Creator of the robots NAO, 
+Pepper and Romeo used in education, retail, healthcare, tourism, hospitality or entertainment.</span><ul class="highlights"><li>Operate the continuous integration platform of the firmware, operating system and software 
+deliverables.</li><li>Manage the tooling needs of the software teams.</li><li>Automate software and robot tests.</li><li>Provide Level 3 support</li></ul><div class="separator"><hr></div></div><div class="jobBlock"><div 
+class="blockHeader"><span class="title">Creative Valley, CTO</span><span>(<a href="https://www.creative-valley.fr">https://www.creative-valley.fr</a>)</span><span class="date">2013-02-01 &mdash; 2013-09-30</span></div><span 
+class="summary">Start-up Accelerator and Digital Agency.</span><ul class="highlights"><li>Manage the Technical Operations staff and oversee daily operations.</li><li>Seek partnerships with digital service providers.</li><li>Provide 
+technical consulting to incubatee and external partners.</li></ul><div class="separator"><hr></div></div><div class="jobBlock"><div class="blockHeader"><span class="title">Daydreamer Studio, COO (cofounder) then R&D 
+Consultant</span><span class="date">2013-02-01 &mdash; 2014-02-28</span></div><div><a href=""></a></div><span class="summary">Videogame, Advergame, Serious game and Game Marketing agency..</span></div></div></div><div 
+class="sectionLine"></div><div id="education" class="sectionBlock"><div class="sectionName"><span>EDUCATION</span></div><div class="sectionContent"><div class="educationBlock"><span class="title">EPITECH</span><span 
+class="country">France</span><span class="date">2011-06-01 &mdash; 2013-01-01</span><div class="">Master - Information Technology</div></div><div class="separator"><hr></div><div class="educationBlock"><span class="title">Concordia 
+University</span><span class="country">Canada</span><span class="date">2011-09-01 &mdash; 2012-04-30</span><div class="">Master (Year 1 - Exchange Program) - Special Computer Science</div></div><div class="separator"><hr></div><div 
+class="educationBlock"><span class="title">Chongqing University</span><span class="country">China</span><span class="date">2010-02-01 &mdash; 2010-08-31</span><div class="">Bachelor (Year 2 - Exchange Program) - CompSci</div></div><div 
+class="separator"><hr></div><div class="educationBlock"><span class="title">EPITECH</span><span class="country">France</span><span class="date">2008-09-01 &mdash; 2011-08-31</span><div class="">Bachelor - Information 
+Technology</div></div><div class="separator"><hr></div><div class="educationBlock"><span class="title">Université de Cergy-Pontoise</span><span class="country">France</span><span class="date">2006-09-01 &mdash; 2008-08-31</span><div 
+class="">DEUG - Maths &amp; Computer Science</div></div></div></div><div class="sectionLine"></div><div id="languages" class="sectionBlock"><div class="sectionName"><span>LANGUAGES</span></div><div class="sectionContent"><span 
+class="language">French</span><span class="fluency"><em>(Native)</em></span><span>,</span><span class="language">English</span><span class="fluency"><em>(Native-level)</em></span><span>,</span><span class="language">Arabic</span><span 
+class="fluency"><em>(Advanced)</em></span><span>,</span><span class="language">Korean</span><span class="fluency"><em>(Novice)</em></span><span>,</span><span class="language">Japanese</span><span 
+class="fluency"><em>(Novice)</em></span></div></div><div class="sectionLine"></div><div id="skills" class="sectionBlock"><div class="sectionName"><span>SOFT SKILLS</span></div><div class="sectionContent"><div class="skillBlock"><span 
+class="title">Communication:</span><ul class="highlights"><li>Fostering Shared Understanding, Providing Helpful Feedback</li><li>Focusing on collaboration, motivation, inclusion and #HugOps.</li><li>Providing awesome Weekly 
+Reports.</li></ul></div><hr><div class="skillBlock"><span class="title">Leadership:</span><ul class="highlights"><li>Following Servant Leadership principles</li><li>Setting a Service Mandate as well as clear goals, directions and 
+expectations</li><li>Coaching, Mentoring</li></ul></div></div></div><div class="sectionLine"></div><div id="skills" class="sectionBlock"><div class="sectionName"><span>SKILLS & TOOLS</span></div><div class="sectionContent"><div 
+class="skillBlock"><span class="title">Architecture:</span><ul class="highlights"><li>Framework-designed Infrastructure</li><li>Infrastructure as Data</li><li>Infrastructure as Code</li><li>Microservices</li><li>Message 
+Queues</li><li>Cloud Functions</li><li>Cloud Events</li><li>Tracing & Telemetry</li><li>Immutable Infrastructure</li><li>Infrastructure as Code</li><li>Policy as Code</li><li>Feature Flags</li><li>Configuration 
+Management</li><li>Resilient and Self-healing services</li><li>Antifragile systems</li></ul></div><div class="separator"><hr></div><div class="skillBlock"><span class="title">Operations:</span><ul class="highlights"><li>Cloud/Hosting 
+Platforms<em>(AWS, GCP, Heroku, Netlify, Zeit Now/Vercel, Fly.io)</em></li><li>OCI Builders<em>(Docker build/buildkit/buildx, ko, Earth, Buildah, Kaniko)</em></li><li>OCI Registries<em>(Docker, OCI 1.1, Quay, AWS ECR, Harbor, GCR, GCP 
+Artifact Registry, Zot)</em></li><li>OCI Runtimes<em>(Docker runc, containerd)</em></li><li>Kubernetes Flavors<em>(GKE, EKS, k3s/k3d, minikube, kind, kairos.io)</em></li><li>Kubernetes Tooling<em>(Helm 3, Kustomize, kpt, 
+kapp/kbld)</em></li><li>Service Mesh<em>(Istio, Linkerd)</em></li><li>CI/CD setup<em>(Github Actions, Tekton, Gitlab CI, Jenkins X, AWS CodePipeline, etc.)</em></li><li>IaaS, Provisioning & Configuration Management<em>(Ansible, 
+Terraform, Pulumi, CrossPlane, ConfigConnector)</em></li><li>ChatOps<em>(Slack apps with slash commands/bots, Telegram bots)</em></li><li>Logging, Monitoring & Tracing<em>(ELK, EFK, Elastic Beats, LGTM, Prometheus, Mimir, Thanos, Loki, 
+Grafana, Humio, Tempo, Jaeger, Honeycomb, Lightstep)</em></li><li>Paging<em>(OpsGenie, Splunk VictorOps, PagerDuty, Grafana OnCall)</em></li><li>Serverless<em>(AWS Lambda, GCP Cloud Functions, Architect, Vercel, 
+etc.)</em></li></ul></div><div class="separator"><hr></div><div class="skillBlock"><span class="title">CI/CD:</span><ul class="highlights"><li>Monorepo / Multirepo</li><li>GitOps</li><li>Build Pipelines</li><li>Blue-Green and 
+Canary</li><li>Byte-for-Byte Reproductible Builds</li><li>Shadow Deployments</li><li>Intelligent Routing</li></ul></div><div class="separator"><hr></div><div class="skillBlock"><span class="title">Security & Compliance:</span><ul 
+class="highlights"><li>Threat Modeling and Asset classification<em>(DREAD/STRIDE, AWS Tagging, Aquasec, Microsoft Threat Modeling Tool, OWASP's Thread Dragon, OWASP SAMM)</em></li><li>Supply Chain Assurance<em>(SLSA, in-toto, Grafeas, 
+TUF, Terrier, OPA/Conftest, Notary, K8s ServiceAccounts/RBAC)</em></li><li>Policy As Code<em>(Styra/OPA/Conftest, Fugue.co, Kyverno, Semgrep, Cyral, K8s SecurityContext)</em></li><li>Infrastructure<em>(Aquasec Clousploit ; Forseti & GCP 
+Security Command Center ; AWS Security Hub, Guard Duty, Macie, Cloudtrail)</em></li><li>Configuration and Drift detection<em>(AWS Config & SystemsManager)</em></li><li>RASP & Behavioral Monitoring<em>(Sysdig Falco, 
+Sqreen)</em></li><li>Account Takeover Protection<em>(Castle.io)</em></li><li>DLP<em>(Watchtower/Nightfall, Google DLP)</em></li></ul></div><div class="separator"><hr></div><div class="skillBlock"><span class="title">Process:</span><ul 
+class="highlights"><li>Framework and practices<em>(Agile, Scrum, SAFe, Trade-off sliders)</em></li><li>Project / Issue Management Tooling<em>(Aha!, Atlassian JIRA, Trello, Monday.com, Github Project, Gitlab 
+Board)</em></li><li>Playbooks<em>(Operations, DACI, Project/Feature Kick-off, Health Monitor / Project Poster)</em></li><li>Incident Response<em>(Guidelines, Values, Communications, Pre/Postmortems)</em></li><li>Social 
+contracts<em>(Standup, OKRs, Rules of Engagement, Roles & Responsibilities))</em></li></ul></div><div class="separator"><hr></div><div class="skillBlock"><span class="title">Languages:</span><ul 
+class="highlights"><li>Scripting<em>(Shell, Python, Javascript)</em></li><li>Configuration<em>(HCL, CUE, YAML, JSON, Skylark/Starlark, Jsonnet)</em></li><li>Policy<em>(HCL, Rego, YAML)</em></li><li>Query<em>(SQL, PromQL, LogQL, 
+TraceQL)</em></li></ul></div></div></div><div class="sectionLine"></div></body></html>
